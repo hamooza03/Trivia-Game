@@ -1,0 +1,36 @@
+#jeopardy-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Adjust based on number of categories */
+    text-align: center;
+    gap: 10px;
+}
+
+#jeopardy-header {
+    background-color: #e31c41; /* Example: a nice shade of blue */
+    color: #ffffff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px; /* Spacing between the header and the board */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+
+#jeopardy-header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+
+.category-row, .points-row {
+    display: contents;
+}
+
+.category, .points {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #e31c41;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Add any additional styling as needed */
