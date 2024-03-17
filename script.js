@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { points: 400, question: 'Who wrote "Pride and Prejudice"?', answer: 'Jane Austen' },
             { points: 500, question: 'Who wrote "Moby-Dick"?', answer: 'Herman Melville' }
         ]},
-        // Add more categories and questions as needed
+        // Might have to change this, as it's dynamic and not static to the buttons
     ];
 
     const categoryRow = document.querySelector('.category-row');
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const userAnswer = prompt(question.question);
                 if (userAnswer.toLowerCase() === question.answer.toLowerCase()) {
                     alert('Correct!');
-                    // Implement scoring system here
+                    // Implement scoring system here (idk how yet)
                 } else {
                     alert(`Incorrect. The correct answer is ${question.answer}`);
                 }

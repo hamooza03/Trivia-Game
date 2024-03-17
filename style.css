@@ -1,22 +1,22 @@
 #jeopardy-board {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Adjust based on number of categories */
+    grid-template-columns: repeat(6, 1fr); 
     text-align: center;
     gap: 10px;
 }
 
 #jeopardy-header {
-    background-color: #e31c41; /* Example: a nice shade of blue */
-    color: #ffffff; /* White text color */
+    background-color: #e31c41;
+    color: #ffffff; 
     text-align: center;
     padding: 20px 0;
-    margin-bottom: 30px; /* Spacing between the header and the board */
-    border-radius: 5px; /* Optional: adds rounded corners */
+    margin-bottom: 30px; 
+    border-radius: 5px; 
 }
 
 #jeopardy-header h1 {
     margin: 0;
-    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-size: 2.5rem; 
     font-weight: bold;
 }
 
@@ -33,4 +33,4 @@
     font-size: 20px;
 }
 
-/* Add any additional styling as needed */
+/* Add styling if need /
